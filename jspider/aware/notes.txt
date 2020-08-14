@@ -1,0 +1,32 @@
+-- Architecture
+  1. Create Spider and SpiderContext
+  2. SpiderContext creates an Agent.
+  3. Agent handles Tasks and Events.
+    - Looks like most of the logic is split up into Tasks and Events,
+      and that the agent handles the 'visit' of Events.
+    - I.e., from AgentImpl...
+
+        scheduler.schedule(new SpiderHttpURLTask(context, foundURL, site));
+
+        public void visit(URL url, URLSpideredOkEvent event) {
+          // ...
+        }
+
+     - Fairly confident SchedulerImpl simply queues up tasks to pass up to
+       AgentImpl which passes them to the respective dispatchers 
+       (DispatchSpiderTasks, DispatchThinkerTasks) which actually get run
+       on a WorkerThreadPool.
+
+  4. Use conf/sites/default.properties to change the throttler used
+
+-- Energy Points
+  - Might be able to mess with throttle and threads something along
+    the lines of accidently throttling a task on a high energy thread.
+
+  - Approaches
+    - 1. Let Throttle resolve to a mode based on the miliseconds selected, and check that
+      against a SpiderHttpURLTask mode.
+
+    - 2. Let a Throttle resolve based on battery level, which will select miliseconds. Then
+      check a task against the Throttle.
+    

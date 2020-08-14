@@ -1,0 +1,5 @@
+*.class
+src/stage/
+aware/stage/
+adapt/stage/
+tadapt/stage/

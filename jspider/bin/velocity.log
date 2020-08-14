@@ -1,0 +1,45 @@
+Thu Aug 13 10:39:23 EDT 2015  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Thu Aug 13 10:39:23 EDT 2015   [info] ************************************************************** 
+Thu Aug 13 10:39:23 EDT 2015   [info] Starting Jakarta Velocity v1.3.1
+Thu Aug 13 10:39:23 EDT 2015   [info] RuntimeInstance initializing.
+Thu Aug 13 10:39:23 EDT 2015   [info] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Thu Aug 13 10:39:23 EDT 2015   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Thu Aug 13 10:39:23 EDT 2015   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Thu Aug 13 10:39:23 EDT 2015   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Thu Aug 13 10:39:23 EDT 2015   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:23 EDT 2015   [info] FileResourceLoader : initialization starting.
+Thu Aug 13 10:39:23 EDT 2015   [info] FileResourceLoader : adding path '/Users/acanino/Projects/Panda/tests/dacapo/jspider/bin/../conf/default/plugins/xmldump'
+Thu Aug 13 10:39:23 EDT 2015   [info] FileResourceLoader : initialization complete.
+Thu Aug 13 10:39:23 EDT 2015   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Thu Aug 13 10:39:23 EDT 2015   [info] Default ResourceManager initialization complete.
+Thu Aug 13 10:39:23 EDT 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Thu Aug 13 10:39:23 EDT 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Thu Aug 13 10:39:23 EDT 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Thu Aug 13 10:39:23 EDT 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Thu Aug 13 10:39:23 EDT 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Thu Aug 13 10:39:23 EDT 2015   [info] Created: 20 parsers.
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : initialization starting.
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Thu Aug 13 10:39:23 EDT 2015  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro :  VM library template macro registration complete.
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : messages on  : VM system will output logging messages
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocimacro : initialization complete.
+Thu Aug 13 10:39:23 EDT 2015   [info] Velocity successfully started.
+Thu Aug 13 10:39:24 EDT 2015   [info] Velocimacro : added new VM : #resource( resource indent ) : source = dump.vm
+Thu Aug 13 10:39:24 EDT 2015   [info] Velocimacro : added new VM : #folder( folder indent ) : source = dump.vm
+Thu Aug 13 10:39:24 EDT 2015  [error] VM #folder: error : too few arguments to macro. Wanted 2 got 0
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found dump.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found info/FETCH_IGNORED.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found info/PARSED.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found info/PARSE_IGNORED.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+oader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found resource/ResourceReferenceDiscoveredEvent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found resource/ResourceParsedEvent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found engine/SpideringSummaryEvent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found dump.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Aug 13 10:39:24 EDT 2015   [info] ResourceManager : found engine/SpideringStoppedEvent.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader

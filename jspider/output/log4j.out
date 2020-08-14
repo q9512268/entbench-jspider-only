@@ -1,0 +1,45 @@
+20:23:20,745 INFO  [PluginFactory] Loading 4 plugins.
+20:23:20,746 INFO  [PluginFactory] Loading plugin configuration 'console'...
+20:23:20,748 INFO  [ConsolePlugin] Prefix set to '[Plugin] '
+20:23:20,748 INFO  [PluginFactory] Plugin not configured for local event filtering
+20:23:20,748 INFO  [PluginFactory] Plugin Name    : Console writer JSpider module
+20:23:20,748 INFO  [PluginFactory] Plugin Version : v1.0
+20:23:20,748 INFO  [PluginFactory] Plugin Vendor  : http://www.javacoding.net
+20:23:20,748 INFO  [PluginFactory] Loading plugin configuration 'velocity'...
+20:23:20,750 INFO  [PluginFactory] Plugin uses local event filtering
+20:23:20,753 INFO  [PluginFactory] Plugin Name    : Velocity Template JSpider module
+20:23:20,753 INFO  [PluginFactory] Plugin Version : v1.0
+20:23:20,753 INFO  [PluginFactory] Plugin Vendor  : http://www.javacoding.net
+20:23:20,753 INFO  [PluginFactory] Loading plugin configuration 'statusbasedfilewriter'...
+20:23:20,757 INFO  [StatusBasedFileWriterPlugin] initialized.
+20:23:20,757 INFO  [PluginFactory] Plugin not configured for local event filtering
+20:23:20,757 INFO  [PluginFactory] Plugin Name    : Status based  Filewriter JSpider plugin
+20:23:20,757 INFO  [PluginFactory] Plugin Version : v1.0
+20:23:20,757 INFO  [PluginFactory] Plugin Vendor  : http://www.javacoding.net
+20:23:20,757 INFO  [PluginFactory] Loading plugin configuration 'xmldump'...
+20:23:20,758 INFO  [PluginFactory] Plugin uses local event filtering
+20:23:20,758 INFO  [PluginFactory] Plugin Name    : Velocity Template JSpider module
+20:23:20,758 INFO  [PluginFactory] Plugin Version : v1.0
+20:23:20,758 INFO  [PluginFactory] Plugin Vendor  : http://www.javacoding.net
+20:23:20,758 INFO  [PluginFactory] Loaded 4 plugins.
+20:23:20,758 INFO  [VelocityPlugin] writing trace file: true
+20:23:20,758 INFO  [VelocityPlugin] writing dump file: true
+20:23:20,759 INFO  [VelocityPlugin] Velocity template folder : velocity
+20:23:20,816 INFO  [VelocityPlugin] Writing to trace file: ./velocity-trace.out
+20:23:20,816 INFO  [VelocityPlugin] Writing to dump file: ./velocity-dump.out
+20:23:20,816 INFO  [VelocityPlugin] writing trace file: false
+20:23:20,816 INFO  [VelocityPlugin] writing dump file: true
+20:23:20,816 INFO  [VelocityPlugin] Velocity template folder : xmldump
+20:23:20,826 INFO  [VelocityPlugin] Writing to dump file: ./xml-dump.xml
+20:23:20,831 INFO  [StorageFactory] Storage provider class is 'class net.javacoding.jspider.core.storage.memory.InMemoryStorageProvider'
+20:23:20,858 INFO  [SpiderContext] default user Agent is 'JSpider v0.5.0-dev (http://j-spider.sourceforge.net)'
+20:23:20,869 INFO  [SchedulerFactory] TaskScheduler provider class is 'class net.javacoding.jspider.core.task.impl.DefaultSchedulerProvider'
+20:23:20,875 INFO  [Spider] Spider born - threads: spiders: 5, thinkers: 1
+20:23:21,061 INFO  [SpiderContext] using userAgent 'JSpider v0.5.0-dev (http://j-spider.sourceforge.net)' for site 'http://api.rubyonrails.org'
+20:23:21,086 INFO  [ThrottleFactory] Throttle provider class is 'class net.javacoding.jspider.core.throttle.impl.PandaLoadThrottleProvider'
+20:23:21,629 INFO  [StatusBasedFileWriterPlugin] creating file for status '200'
+20:23:22,121 INFO  [SpiderContext] site https://github.com must not be handled.
+20:23:22,145 INFO  [SpiderContext] site http://en.wikipedia.org must not be handled.
+20:23:22,154 INFO  [SpiderContext] site http://localhost:3000 must not be handled.
+20:23:22,390 INFO  [SpiderContext] site http://www.railstutorial.org must not be handled.
+20:23:22,715 INFO  [SpiderContext] site http://www.opensource.org must not be handled.

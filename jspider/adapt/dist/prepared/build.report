@@ -1,0 +1,23 @@
+Build report for JSpider.
+This file summarizes the configuration used to build this distribution.
+
+System summary :
+----------------
+
+Java version : 1.8.0_60
+Java vendor  : Oracle Corporation
+Ant version  : Apache Ant(TM) version 1.9.3 compiled on April 8 2014
+OS name      : Linux
+OS arch      : amd64
+OS version   : 3.19.0-64-generic
+
+Project summary :
+-----------------
+
+JSpider version number : 0.5.0-dev
+JSpider version string : JSpider v0.5.0 DEV (http://j-spider.sourceforge.net)
+
+Build summary :
+---------------
+
+Build timestamp : 2016/08/08 17:12
